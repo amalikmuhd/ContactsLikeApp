@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+	let contactData = ContactData()
     var body: some View {
-        Text("Hello, World!")
+			List(contactData.contacts.indices) { item in
+				Text("\(self.contactData.contacts[item].fullName)")
+			}
     }
 }
 
