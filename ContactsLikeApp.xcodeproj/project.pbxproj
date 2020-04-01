@@ -310,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ContactsLikeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5Y5DR73B2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ContactsLikeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,6 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ContactsLikeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5Y5DR73B2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ContactsLikeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

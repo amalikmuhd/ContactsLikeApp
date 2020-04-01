@@ -9,16 +9,29 @@
 import SwiftUI
 
 struct ContentView: View {
-	let contactData = ContactData()
+	let contactData: ContactData
     var body: some View {
-			List(contactData.contacts.indices) { item in
-				Text("\(self.contactData.contacts[item].fullName)")
+			NavigationView {
+				List(contactData.contacts.indices) { item in
+					Text("\(self.contactData.contacts[item].fullName)")
+				}
+				.navigationBarTitle("Contacts", displayMode: .automatic)
+				.navigationBarItems(
+					leading:
+						Button("Groups"){
+							
+						},
+					trailing:
+						Button( action: {} ){
+							Image(systemName: "plus")
+						}
+				)
 			}
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+			ContentView( contactData: ContactData() )
     }
 }
